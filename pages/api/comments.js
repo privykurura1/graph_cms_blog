@@ -28,5 +28,5 @@ export default async function asynchandler(req, res) {
     slug: req.body.slug,
   });
 
-  return res.status(200).send(result);
+  return res.status(500).send(result);
 }
