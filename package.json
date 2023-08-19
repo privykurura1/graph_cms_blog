@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=16.20"
+    "node": ">=16.0"
   },
   "engineStrict": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --openssl-legacy-provider start", 
     "lint": "next lint"
   },
   "dependencies": {
