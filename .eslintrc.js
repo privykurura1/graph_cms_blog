@@ -18,6 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
     'jsx-a11y/label-has-associated-control': 0,
     'react/jsx-props-no-spreading': 0,
     'react/react-in-jsx-scope': 0,
@@ -28,7 +30,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'max-len': [
       2,
-      250,
+      260,
     ],
     'no-multiple-empty-lines': [
       'error',
