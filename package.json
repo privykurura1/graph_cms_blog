@@ -8,6 +8,7 @@
   "engineStrict": true,
   "scripts": {
     "dev": "next dev",
+    "serve": "vue-cli-service serve --openssl-legacy-provider",
     "build": "next build",
     "start": "react-scripts --openssl-legacy-provider start",
     "lint": "next lint"
