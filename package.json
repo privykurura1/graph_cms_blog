@@ -1,7 +1,7 @@
 {
   "name": "graphcms-blog",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "engines": {
     "node": "14.x"
   },
@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "react-scripts --openssl-legacy-provider start",
     "lint": "next lint"
   },
   "dependencies": {
