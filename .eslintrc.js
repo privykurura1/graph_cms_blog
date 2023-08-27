@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    "next/core-web-vitals",
     'airbnb',
   ],
   parserOptions: {
@@ -18,6 +19,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
     'jsx-a11y/label-has-associated-control': 0,
     'react/jsx-props-no-spreading': 0,
     'react/react-in-jsx-scope': 0,
